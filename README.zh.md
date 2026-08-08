@@ -3,126 +3,61 @@
     <picture>
       <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
       <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenCode logo">
+      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
     </picture>
   </a>
 </p>
-<p align="center">开源的 AI Coding Agent。</p>
-<p align="center">
-  <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
-  <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/opencode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/opencode/publish.yml?style=flat-square&branch=dev" /></a>
-</p>
-
-<p align="center">
-  <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
-  <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
-  <a href="README.it.md">Italiano</a> |
-  <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
-  <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
-  <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
-  <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
-</p>
-
-[![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
+<p align="center">OpenDev — 开源 AI 编码代理的变体。</p>
 
 ---
+
+> [!IMPORTANT]
+> OpenDev **并非**由 OpenCode 团队开发，也**不**与其存在任何关联。
+> 本项目是 [anomalyco](https://github.com/anomalyco) 开发的 [OpenCode](https://github.com/anomalyco/opencode)（最初的
+> 开源 AI 编码代理）的一个分支/变体。上游代码的所有功劳归于 OpenCode 的作者和贡献者。
+
+---
+
+### 什么是 OpenDev？
+
+OpenDev 是 OpenCode 的个人变体，是一个在终端中运行的开源 AI 编码代理。它基于 OpenCode
+的代码，并进行了本地修改和针对我工作方式的配置调整。
+
+如需了解完整的上游功能、文档和社区，请参阅
+[**OpenCode**](https://github.com/anomalyco/opencode) 及其文档 [**opencode.ai**](https://opencode.ai/docs)。
 
 ### 安装
 
-```bash
-# 直接安装 (YOLO)
-curl -fsSL https://opencode.ai/install | bash
-
-# 软件包管理器
-npm i -g opencode-ai@latest        # 也可使用 bun/pnpm/yarn
-scoop install opencode             # Windows
-choco install opencode             # Windows
-brew install anomalyco/tap/opencode # macOS 和 Linux（推荐，始终保持最新）
-brew install opencode              # macOS 和 Linux（官方 brew formula，更新频率较低）
-sudo pacman -S opencode            # Arch Linux (Stable)
-paru -S opencode-bin               # Arch Linux (Latest from AUR)
-mise use -g opencode               # 任意系统
-nix run nixpkgs#opencode           # 或用 github:anomalyco/opencode 获取最新 dev 分支
-```
-
-> [!TIP]
-> 安装前请先移除 0.1.x 之前的旧版本。
-
-### 桌面应用程序 (BETA)
-
-OpenCode 也提供桌面版应用。可直接从 [发布页 (releases page)](https://github.com/anomalyco/opencode/releases) 或 [opencode.ai/download](https://opencode.ai/download) 下载。
-
-| 平台                  | 下载文件                           |
-| --------------------- | ---------------------------------- |
-| macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg`   |
-| macOS (Intel)         | `opencode-desktop-mac-x64.dmg`     |
-| Windows               | `opencode-desktop-windows-x64.exe` |
-| Linux                 | `.deb`、`.rpm` 或 AppImage         |
+OpenDev 使用 [Bun](https://bun.sh) 从源码运行。
 
 ```bash
-# macOS (Homebrew Cask)
-brew install --cask opencode-desktop
-# Windows (Scoop)
-scoop bucket add extras; scoop install extras/opencode-desktop
+# 安装依赖
+bun install
+
+# 运行开发服务器
+bun dev
 ```
 
-#### 安装目录
+如需上游二进制安装（未修改的 OpenCode），请参阅[官方安装程序](https://opencode.ai/install)。
 
-安装脚本按照以下优先级决定安装路径：
+### 内置代理
 
-1. `$OPENCODE_INSTALL_DIR` - 自定义安装目录
-2. `$XDG_BIN_DIR` - 符合 XDG 基础目录规范的路径
-3. `$HOME/bin` - 如果存在或可创建的用户二进制目录
-4. `$HOME/.opencode/bin` - 默认备用路径
+与 OpenCode 一样，此变体包含两个内置代理，可使用 `Tab` 键切换。
 
-```bash
-# 示例
-OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
-XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
-```
+- **build** - 默认代理，具有开发工作的完整访问权限
+- **plan** - 只读代理，用于分析和探索代码
 
-### Agents
-
-OpenCode 内置两种 Agent，可用 `Tab` 键快速切换：
-
-- **build** - 默认模式，具备完整权限，适合开发工作
-- **plan** - 只读模式，适合代码分析与探索
-  - 默认拒绝修改文件
-  - 运行 bash 命令前会询问
-  - 便于探索未知代码库或规划改动
-
-另外还包含一个 **general** 子 Agent，用于复杂搜索和多步任务，内部使用，也可在消息中输入 `@general` 调用。
-
-了解更多 [Agents](https://opencode.ai/docs/agents) 相关信息。
+了解有关 OpenCode 代理的更多信息，请访问 [opencode.ai/docs/agents](https://opencode.ai/docs/agents)。
 
 ### 文档
 
-更多配置说明请查看我们的 [**官方文档**](https://opencode.ai/docs)。
+如需了解 OpenCode 的配置方式，请参阅上游文档：
+[**opencode.ai/docs**](https://opencode.ai/docs)。
 
 ### 参与贡献
 
-如有兴趣贡献代码，请在提交 PR 前阅读 [贡献指南 (Contributing Docs)](./CONTRIBUTING.md)。
-
-### 基于 OpenCode 进行开发
-
-如果你在项目名中使用了 “opencode”（如 “opencode-dashboard” 或 “opencode-mobile”），请在 README 里注明该项目不是 OpenCode 团队官方开发，且不存在隶属关系。
+这是一个个人项目，但欢迎向上游 [**anomalyco/opencode**](https://github.com/anomalyco/opencode) 贡献代码。
 
 ---
 
-**加入我们的社区** [飞书](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=52ao9352-5623-4fa0-b7dd-3407c392c1af&qr_code=true) | [X.com](https://x.com/opencode)
+**致谢：** 基于 [anomalyco](https://github.com/anomalyco) 开发的 [OpenCode](https://github.com/anomalyco/opencode) 构建。
