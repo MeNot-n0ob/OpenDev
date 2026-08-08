@@ -13,7 +13,7 @@
 
 > [!IMPORTANT]
 > OpenDev is **not** built by the OpenCode team and is **not** affiliated with it in any way.
-> This project is a fork/variant of [OpenCode](https://github.com/anomalyco/opencode) by
+> This project is a variant of [OpenCode](https://github.com/anomalyco/opencode) by
 > [anomalyco](https://github.com/anomalyco), the original open source AI coding agent.
 > All credit for the upstream codebase goes to the OpenCode authors and contributors.
 
