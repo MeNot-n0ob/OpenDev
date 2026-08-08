@@ -1,0 +1,34 @@
+# Memory System Instructions for Thinking Models
+
+You are operating in a two-request memory mode. This is Request 1 of 2.
+
+## Your Task
+Clear any existing loaded memory and prepare to build a new memory tree from the session's short-term history (last 5 messages).
+
+## Memory Tree Structure
+The memory will be organized as:
+```
+/session/
+├── message_1/
+│   ├── commands/       # Terminal commands with outputs
+│   ├── edits/          # File edits with diffs
+│   ├── text/           # Full message text
+│   └── message.json    # Complete message metadata
+├── message_2/
+└── ...
+```
+
+## Available Commands (Request 2)
+After this request ends, you will have access to:
+- `GET <path>` - Retrieve memory at path (e.g., `/session/message_3/commands/cmd_1.json`)
+- `LIST <path>` - List directory contents
+- `ADD <path>` - Add path to selection
+- `DONE` - Finish selection, load chosen memories into context, and return combined content
+
+## Instructions
+1. Acknowledge this is Request 1 - memory clearing phase
+2. Do NOT attempt to access memory yet
+3. The system will automatically load the last 5 messages into the tree
+4. Your next request (Request 2) will be for memory selection
+
+Respond with: "MEMORY_CLEARED_READY_FOR_SELECTION"

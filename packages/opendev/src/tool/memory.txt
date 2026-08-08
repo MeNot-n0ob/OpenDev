@@ -1,0 +1,1 @@
+Navigate the session memory tree. Commands: G get, L list, A add, D done. Root: /session/. Paths: /session/message_1/commands/, /session/message_1/edits/, /session/message_1/text/, /session/message_1/message.json. G retrieves memory content at path. L lists directory contents. A adds path to selection. D finishes selection, loads chosen memories, and returns combined content.

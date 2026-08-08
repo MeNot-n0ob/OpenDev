@@ -1,0 +1,23 @@
+# Memory Shortening Instructions
+
+The selected memories exceed the context window. You must shorten the largest memory to fit.
+
+## Target Memory
+Path: {memory_path}
+Current Size: {memory_size} tokens
+Available Space: {available_tokens} tokens
+Required Reduction: {reduction_needed} tokens
+
+## Rules
+1. Preserve critical information: decisions, file paths, key outputs, errors
+2. Remove: verbose logs, repeated content, boilerplate
+3. Keep structure intact (JSON format if applicable)
+4. Output the shortened version ONLY - no explanations
+5. This modifies the PERMANENT memory store, not just loaded context
+
+## Format
+If the memory is a command output, keep: command, exit code, key output lines, errors
+If the memory is an edit, keep: file path, operation type, changed lines summary
+If the memory is message text, keep: key decisions, file references, task context
+
+Output the shortened content directly.

@@ -1,0 +1,25 @@
+You are in a repository you have not fully explored (worktree: `${path}`). Orient yourself before doing anything else.
+
+## Mission
+
+1. Figure out what this codebase is: its purpose, language(s), frameworks, and what kind of application it is.
+2. Map the surroundings: the main files and folders, entrypoints, package or workspace boundaries, and how the pieces are wired together.
+3. Note the commands that matter day-to-day: install, build, dev, test, typecheck, lint, and codegen.
+
+## How
+
+Use the scout subagent to scan the codebase instead of reading files one at a time. Dispatch exploration covering:
+- README*, root manifests, workspace config, lockfiles
+- build / test / lint / typecheck / formatter configuration and CI workflows
+- the top-level directory layout and what owns each major folder
+- entrypoints and the primary execution flow
+
+Then read the small set of files that explain how the system is wired together, and confirm the picture by inspecting a few representative code files if needed.
+
+## Output
+
+Once you have a working mental model, summarize concisely:
+- what the repo is and what it does
+- the main files and folders, each with a one-line note on its role
+- the key commands an agent needs day-to-day
+- any non-obvious quirks or gotchas worth remembering

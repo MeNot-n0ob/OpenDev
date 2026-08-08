@@ -1,0 +1,21 @@
+Continue the previous task in this repository (worktree: `${path}`).
+
+The agent likely ended the previous turn mid-task. Recover the thread and finish the work.
+
+## How to orient
+
+1. Re-read the last assistant message and the final user prompt to recall exactly what was being done and where it stopped.
+2. Inspect the repo state to confirm what already changed: run `git status`, `git diff --stat`, and `git diff` (or review recent commits with `git log --oneline -5`).
+3. Look for unfinished signals: TODO/FIXME markers, half-written files, failing tests, or a stated "next step" that was never executed.
+
+## What to do
+
+- Pick up the work exactly where it stopped and carry it through to completion.
+- If a requested change is only partially applied, finish the remaining edits.
+- If a task was described but not started, start it now.
+- If the previous turn left verification incomplete, run the project's tests / typecheck / lint and fix any failures.
+- Do not redo work that is already complete; verify it instead.
+- Report at the end what was finished, what is still open, and any decisions you made.
+
+User-provided focus or constraints (honor these):
+$ARGUMENTS

@@ -1,0 +1,39 @@
+# Memory Selection Guidance
+
+You are in Request 2: Memory Selection Phase. The memory tree has been built from the last 5 messages.
+
+## Tree Navigation
+- Root: `/session/`
+- Messages: `/session/message_1/` through `/session/message_5/`
+- Each message contains: `commands/`, `edits/`, `text/`, `message.json`
+
+## Strategy
+1. Start with `LIST /session/` to see available messages
+2. Navigate to relevant messages based on your current task
+3. Use `GET` to retrieve specific memories you need
+4. Use `ADD` to add memories to your selection
+5. Use `DONE` when you have selected all necessary memories
+
+## Selection Criteria
+Prioritize memories that contain:
+- Recent file edits relevant to current task
+- Terminal commands that produced important outputs
+- Error messages or debug information
+- Decisions made in previous turns
+- File paths and references
+
+Avoid:
+- Routine navigation commands (ls, cd)
+- Verbose logs without errors
+- Duplicate information
+
+## Context Awareness
+The system will warn you if selected memories approach context limits. If exceeded, the largest memory will be automatically shortened (permanent change).
+
+## Commands
+- `LIST <path>` - Explore directory
+- `GET <path>` - Retrieve memory content
+- `ADD <path>` - Add path to selection
+- `DONE` - Finalize selection and return combined content
+
+Begin with: `LIST /session/`
