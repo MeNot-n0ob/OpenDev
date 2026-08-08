@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — 오픈소스 AI 코딩 에이전트의 변형입니다.</p>
 
@@ -14,7 +8,7 @@
 > [!IMPORTANT]
 > OpenDev는 OpenCode 팀이 만들지 **않았으며** 그들과 **어떠한** 관련도 없습니다.
 > 이 프로젝트는 원래 오픈소스 AI 코딩 에이전트인
-> [anomalyco](https://github.com/anomalyco)의 [OpenCode](https://github.com/anomalyco/opencode)의 포크/변형입니다.
+> [anomalyco](https://github.com/anomalyco)의 [OpenCode](https://github.com/anomalyco/opencode)의 변형입니다.
 > 업스트림 코드의 모든 공로는 OpenCode의 작성자와 기여자에게 있습니다.
 
 ---

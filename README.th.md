@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — ตัวแปรของเอเจนต์เขียนโค้ด AI แบบโอเพนซอร์ส</p>
 
@@ -13,7 +7,7 @@
 
 > [!IMPORTANT]
 > OpenDev **ไม่ได้** สร้างโดยทีม OpenCode และ**ไม่**มีส่วนเกี่ยวข้องใดๆ กับทีม
-> โปรเจกต์นี้เป็น fork/ตัวแปรของ [OpenCode](https://github.com/anomalyco/opencode) โดย
+> โปรเจกต์นี้เป็น ตัวแปรของ [OpenCode](https://github.com/anomalyco/opencode) โดย
 > [anomalyco](https://github.com/anomalyco) เอเจนต์เขียนโค้ด AI แบบโอเพนซอร์สดั้งเดิม
 > เครดิตทั้งหมดของโค้ดต้นทางเป็นของผู้เขียนและผู้มีส่วนร่วมของ OpenCode
 

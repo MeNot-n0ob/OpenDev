@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — μια παραλλαγή του ανοιχτού κώδικα AI agent κωδικοποίησης.</p>
 
@@ -13,7 +7,7 @@
 
 > [!IMPORTANT]
 > Το OpenDev **δεν** δημιουργήθηκε από την ομάδα του OpenCode και **δεν** έχει καμία σχέση με αυτήν.
-> Αυτό το έργο είναι ένα fork/παραλλαγή του [OpenCode](https://github.com/anomalyco/opencode) από την
+> Αυτό το έργο είναι μια παραλλαγή του [OpenCode](https://github.com/anomalyco/opencode) από την
 > [anomalyco](https://github.com/anomalyco), τον αρχικό ανοιχτού κώδικα AI agent κωδικοποίησης.
 > Όλη η αξία για τον αρχικό κώδικα ανήκει στους συγγραφείς και τους συνεργάτες του OpenCode.
 

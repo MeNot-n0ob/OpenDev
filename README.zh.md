@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — 开源 AI 编码代理的变体。</p>
 
@@ -14,7 +8,7 @@
 > [!IMPORTANT]
 > OpenDev **并非**由 OpenCode 团队开发，也**不**与其存在任何关联。
 > 本项目是 [anomalyco](https://github.com/anomalyco) 开发的 [OpenCode](https://github.com/anomalyco/opencode)（最初的
-> 开源 AI 编码代理）的一个分支/变体。上游代码的所有功劳归于 OpenCode 的作者和贡献者。
+> 开源 AI 编码代理）的一个变体。上游代码的所有功劳归于 OpenCode 的作者和贡献者。
 
 ---
 

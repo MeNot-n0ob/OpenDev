@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — açık kaynaklı yapay zekâ kodlama aracısının bir varyantı.</p>
 
@@ -14,7 +8,7 @@
 > [!IMPORTANT]
 > OpenDev, OpenCode ekibi tarafından **oluşturulmamıştır** ve onunla **hiçbir** ilişkisi yoktur.
 > Bu proje, orijinal açık kaynaklı yapay zekâ kodlama aracısı olan
-> [anomalyco](https://github.com/anomalyco) tarafından geliştirilen [OpenCode](https://github.com/anomalyco/opencode)'un bir fork'u/varyantıdır.
+> [anomalyco](https://github.com/anomalyco) tarafından geliştirilen [OpenCode](https://github.com/anomalyco/opencode)'un bir varyantıdır.
 > Orijinal kodun tüm itibarı OpenCode yazar ve katkıda bulunanlarına aittir.
 
 ---

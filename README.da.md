@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — en variant af den open source AI-kodningsagent.</p>
 
@@ -13,7 +7,7 @@
 
 > [!IMPORTANT]
 > OpenDev er **ikke** bygget af OpenCode-teamet og har **ingen** tilknytning til det.
-> Dette projekt er en fork/variant af [OpenCode](https://github.com/anomalyco/opencode) af
+> Dette projekt er en variant af [OpenCode](https://github.com/anomalyco/opencode) af
 > [anomalyco](https://github.com/anomalyco), den originale open source AI-kodningsagent.
 > Al ære for den oprindelige kode går til OpenCode's forfattere og bidragydere.
 

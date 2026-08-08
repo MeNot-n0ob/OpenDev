@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="Логотип OpenDev">
-    </picture>
-  </a>
+  <img src="logo.png" alt="Логотип OpenDev">
 </p>
 <p align="center">OpenDev — вариант опенсорсного ИИ-агента для написания кода.</p>
 
@@ -13,7 +7,7 @@
 
 > [!IMPORTANT]
 > OpenDev **не** создан командой OpenCode и **не** имеет с ней никакого отношения.
-> Этот проект — форк/вариант [OpenCode](https://github.com/anomalyco/opencode) от
+> Этот проект — вариант [OpenCode](https://github.com/anomalyco/opencode) от
 > [anomalyco](https://github.com/anomalyco), оригинального опенсорсного ИИ-агента для написания кода.
 > Вся заслуга за исходный код принадлежит авторам и контрибьюторам OpenCode.
 

@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — オープンソースの AI コーディングエージェントの変種です。</p>
 
@@ -14,7 +8,7 @@
 > [!IMPORTANT]
 > OpenDev は OpenCode チームによって開発されたものでは**なく**、同チームと**一切**関係ありません。
 > このプロジェクトは、[anomalyco](https://github.com/anomalyco) による
-> [OpenCode](https://github.com/anomalyco/opencode)（オリジナルのオープンソース AI コーディングエージェント）のフォーク/変種です。
+> [OpenCode](https://github.com/anomalyco/opencode)（オリジナルのオープンソース AI コーディングエージェント）の変種です。
 > アップストリームのコードの功績はすべて OpenCode の作者と貢献者に帰属します。
 
 ---

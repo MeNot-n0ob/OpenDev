@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — một biến thể của tác nhân viết mã AI mã nguồn mở.</p>
 
@@ -13,7 +7,7 @@
 
 > [!IMPORTANT]
 > OpenDev **không** do nhóm OpenCode tạo ra và **không** có bất kỳ liên hệ nào với họ.
-> Dự án này là một fork/biến thể của [OpenCode](https://github.com/anomalyco/opencode) bởi
+> Dự án này là một biến thể của [OpenCode](https://github.com/anomalyco/opencode) bởi
 > [anomalyco](https://github.com/anomalyco), tác nhân viết mã AI mã nguồn mở ban đầu.
 > Mọi công sức cho mã nguồn đều thuộc về các tác giả và người đóng góp của OpenCode.
 

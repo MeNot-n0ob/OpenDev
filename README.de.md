@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — eine Variante des Open-Source-KI-Coding-Agenten.</p>
 
@@ -13,7 +7,7 @@
 
 > [!IMPORTANT]
 > OpenDev wurde **nicht** vom OpenCode-Team entwickelt und steht in **keiner** Verbindung zu ihm.
-> Dieses Projekt ist ein Fork/eine Variante von [OpenCode](https://github.com/anomalyco/opencode) von
+> Dieses Projekt ist eine Variante von [OpenCode](https://github.com/anomalyco/opencode) von
 > [anomalyco](https://github.com/anomalyco), dem ursprünglichen Open-Source-KI-Coding-Agenten.
 > Alle Anerkennung für den ursprünglichen Code gebührt den Autoren und Mitwirkenden von OpenCode.
 

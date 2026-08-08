@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev logo">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev logo">
 </p>
 <p align="center">OpenDev — varijanta open source AI agenta za kodiranje.</p>
 
@@ -13,7 +7,7 @@
 
 > [!IMPORTANT]
 > OpenDev **nije** napravio OpenCode tim i **nema** nikakve veze s njim.
-> Ovaj projekat je fork/varijanta [OpenCode](https://github.com/anomalyco/opencode) od strane
+> Ovaj projekat je varijanta [OpenCode](https://github.com/anomalyco/opencode) od strane
 > [anomalyco](https://github.com/anomalyco), originalnog open source AI agenta za kodiranje.
 > Sva zasluga za originalni kod pripada autorima i saradnicima OpenCode-a.
 

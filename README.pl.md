@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="Logo OpenDev">
-    </picture>
-  </a>
+  <img src="logo.png" alt="Logo OpenDev">
 </p>
 <p align="center">OpenDev — wariant open source agenta do pisania kodu opartego na AI.</p>
 
@@ -13,7 +7,7 @@
 
 > [!IMPORTANT]
 > OpenDev **nie** został stworzony przez zespół OpenCode i **nie** ma z nim żadnych powiązań.
-> Ten projekt jest forkiem/wariantem [OpenCode](https://github.com/anomalyco/opencode) autorstwa
+> Ten projekt jest wariantem [OpenCode](https://github.com/anomalyco/opencode) autorstwa
 > [anomalyco](https://github.com/anomalyco), oryginalnego open source agenta do pisania kodu opartego na AI.
 > Cała zasługa za oryginalny kod należy do autorów i współtwórców OpenCode.
 

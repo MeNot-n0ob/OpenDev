@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenDev লোগো">
-    </picture>
-  </a>
+  <img src="logo.png" alt="OpenDev লোগো">
 </p>
 <p align="center">OpenDev — ওপেন সোর্স এআই কোডিং এজেন্টের একটি ভ্যারিয়েন্ট।</p>
 
@@ -14,7 +8,7 @@
 > [!IMPORTANT]
 > OpenDev OpenCode টিম দ্বারা তৈরি **নয়** এবং এর সাথে **কোনো** সম্পর্ক নেই।
 > এই প্রজেক্টটি [anomalyco](https://github.com/anomalyco) এর [OpenCode](https://github.com/anomalyco/opencode) (মূল
-> ওপেন সোর্স এআই কোডিং এজেন্ট)-এর একটি ফর্ক/ভ্যারিয়েন্ট।
+> ওপেন সোর্স এআই কোডিং এজেন্ট)-এর একটি ভ্যারিয়েন্ট।
 > মূল কোডের সব কৃতিত্ব OpenCode এর লেখক ও অবদানকারীদের।
 
 ---
