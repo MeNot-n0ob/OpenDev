@@ -14,7 +14,7 @@ Contributions are reviewed based on their size and impact.
 
 ---
 
-##All votes are held using google forms
+## All votes are held using google forms
 
 ---
 ## 1. Small Changes
