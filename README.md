@@ -43,24 +43,14 @@ bun dev
 For upstream binary installs (the unmodified OpenCode), see the
 [official installer](https://opencode.ai/install).
 
-### Built-in agents
-
-Like OpenCode, this variant includes two built-in agents you can switch between with the `Tab` key.
-
-- **build** - Default, full-access agent for development work
-- **plan** - Read-only agent for analysis and code exploration
-
-Learn more about OpenCode agents at [opencode.ai/docs/agents](https://opencode.ai/docs/agents).
-
 ### Documentation
 
-For how OpenCode is configured, head over to the upstream docs at
+OpenDev is configured in the same way as OpenCode. For how OpenCode is configured, head over to the upstream docs at
 [**opencode.ai/docs**](https://opencode.ai/docs).
 
 ### Contributing
 
-This is a personal project, but upstream contributions are welcome at
-[**anomalyco/opencode**](https://github.com/anomalyco/opencode).
+This is a personal project, but contributions are welcome
 
 ---
 
